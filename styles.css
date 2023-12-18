@@ -1,0 +1,705 @@
+body {
+    font-family: 'Inter',sans-serif;
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+/* Header Css Starts*/
+
+.header-bar{
+    display: inline-flex;
+    width: 100%;
+    background-color: black;
+}
+
+.logo-img{
+    width:100%;
+    max-width: 88px;
+    height: 100%;
+}
+
+.client-logo , .navbarr {
+    width: 50%;
+    padding: 10px;
+}
+
+.navlist ul li {
+    display: inline;
+    padding-right: 10px;
+}
+
+.navlist ul {
+    list-style: none;
+    padding-top: 20px;
+    margin: 0;
+    float: right;
+}
+
+.navlist ul li a {
+    text-decoration: none;
+    color: white ;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-family: 'Inter',sans-serif;
+}
+
+.navlist ul li a:hover {
+    color:red;
+}
+
+.navbarr{
+    justify-content: right;
+    padding: 20px;
+}
+
+/* Header Css Ends*/
+
+/*banner css starts*/
+
+.banner {
+    background-image:url("https://i.ibb.co/47XD407/Whats-App-Image-2023-12-17-at-20-11-02-de1c42d7.jpg");
+    width: 100%;
+    height: 700px;
+    background-position: center-center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.banner:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 700px;
+    background-color:black;
+    opacity: 0.8;
+}
+
+.hfhf {
+    top: 40%;
+    position: absolute;
+    color: #fff;
+    text-align: center;
+    padding: 0px 10px;
+}
+
+.hfhf h1 {
+    font-weight: bold;
+    font-size: 50px;
+    font-family: 'Inter',sans-serif;
+    color: red;
+}
+
+.hfhf p{
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Inter',sans-serif;
+    color: #fff;
+}
+
+.hfhf span{
+    color: red;
+}
+
+/*banner css ends*/
+
+/* About Us Section Css Starts*/
+
+.about-us {
+    width: 100%;
+}
+
+.about-content {
+    padding: 60px 0px;
+    display: inline-flex;
+    width: 100%;
+}
+
+.about-img img {
+    width: 100%;
+    max-width: 700px;
+    height: 100%;
+    max-height: 400px;
+}
+
+.about-img , .about-desc {
+    width: 50%;
+}
+
+.about-desc h2 {
+    font-size: 40px;
+    color:rgb(255, 98, 0);
+    text-transform: uppercase;
+    font-family: 'Inter',sans-serif;
+}
+
+.about-img {
+    padding-left: 20px;
+}
+
+.about-desc {
+    padding-right: 20px;
+    font-family: 'Inter',sans-serif;
+}
+
+.about-desc p{
+    font-size: 20px;
+    font-family: 'Inter',sans-serif;
+}
+
+
+/* About Us Section Css Ends*/
+
+/*Gallery css starts*/
+
+.carousel-item img{
+    height: auto;
+    max-height: 700px;
+}
+
+.galh h1{
+    color: rgb(122, 8, 8);
+    text-align: center;
+    padding: 20px 0px;
+    font-family: 'Inter',sans-serif;
+}
+
+/*Gallery css ends*/
+
+/* Footer Css Starts*/
+
+.footer-section{
+	
+	display:grid;
+	grid-template-columns:auto auto auto auto;
+	background-color:#00053b;
+	margin-top:0px;
+	padding: 10px 20px;
+}
+
+.footer-about{
+	padding:0 10px;
+}
+
+.footer-about img{
+	width: 100%;
+    max-width: 250px;
+    height: -webkit-fill-available;
+    padding-top: 10px;
+}
+
+.useful-links, .social-icons, .con{
+	padding:0 20px;
+	
+}
+
+.useful-links h4, .social-icons h4, .con h4{
+	font-size:18px;
+	color:orange;
+	text-transform:capitalize;
+    font-family: 'Inter',sans-serif;
+}
+
+.useful-links ul{
+	list-style: disc;
+	padding:0;
+    color: #fff;
+}
+
+.useful-links ul li, .social-icons ul li {
+	padding-bottom:10px;
+}
+
+.useful-links ul li a{
+	text-decoration:none;
+	font-size:18px;
+    color: #fff;
+    font-family: 'Inter',sans-serif;
+}
+
+.social-icons ul{
+    display: flex;
+}
+
+.social-icons  ul li a{
+    padding: 0px 10px;
+    color: #fff;
+    font-family: 'Inter',sans-serif;
+}
+
+.social-icons ul{
+    list-style: none;
+}
+
+.con ul li a{
+    color: white;
+    text-decoration: none;
+    list-style: none;
+}
+
+.con ul li{
+    list-style: none;
+}
+
+
+
+/* Footer Css Ends*/
+
+
+@media screen and (max-width:426px) {
+    body {
+        background-color: #fff;
+        width: 100%;
+        height: 100%;
+        padding: 0;
+        margin: 0;
+    
+    }
+
+    /* Header Css Starts*/
+
+.header-bar{
+    display: inline-flex;
+    width: 100%;
+    background-color: black;
+}
+
+.navlist ul li a {
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 9px;
+}
+
+.client-logo {
+    width: 30%;
+    padding: 10px;
+}
+
+.navbarr {
+    width: 100%;
+}
+
+.navbarr{
+    justify-content: none;
+    padding: 0px;
+}
+
+.navlist ul {
+    list-style: none;
+    padding-bottom: 20px;
+    margin: 0;
+    float: right;
+    padding-top: 10px;
+}
+
+/* Header Css Ends*/
+
+/*banner css starts*/
+
+.banner {
+    background-image:url("https://i.ibb.co/47XD407/Whats-App-Image-2023-12-17-at-20-11-02-de1c42d7.jpg");
+    width: 100%;
+    height: 250px;
+    background-position: center-center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.banner:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 250px;
+    background-color:black;
+    opacity: 0.8;
+}
+
+.hfhf {
+    top: 0%;
+    position: relative;
+    color: #fff;
+    text-align: center;
+    padding: 76px 10px;
+}
+
+.hfhf h1 {
+    font-weight: bold;
+    font-size: 16px;
+    font-family: 'Inter',sans-serif;
+}
+
+.hfhf p{
+    font-weight: bold;
+    font-size: 10px;
+    font-family: 'Inter',sans-serif;
+}
+
+.hfhf span{
+    color: red;
+}
+
+/*banner css ends*/
+
+/*Gallery css starts*/
+
+.carousel-item img{
+    height: auto;
+    max-height: 250px;
+}
+
+.galh h1{
+    color: rgb(122, 8, 8);
+    text-align: center;
+    padding: 0px 0px;
+    font-family: 'Inter',sans-serif;
+}
+
+/*Gallery css ends*/
+
+/* About Us Section Css Starts*/
+
+.about-us {
+    width: 100%;
+}
+
+.about-content {
+    padding: 3px 0px;
+    display: block;
+    width: 100%;
+}
+
+.about-img img {
+    width: 100%;
+    height: 100%;
+    max-height: 400px;
+}
+
+.about-img , .about-desc {
+    width:100%;
+}
+
+.about-desc h2 {
+    font-size: 15px;
+    color:rgb(255, 98, 0);
+    text-transform: uppercase;
+    font-family: 'Inter',sans-serif;
+}
+
+.about-img {
+    padding-left: 0px;
+}
+
+.about-desc {
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-family: 'Inter',sans-serif;
+}
+
+.about-desc p{
+    font-size: 10px;
+}
+
+
+/* About Us Section Css Ends*/
+
+/* Footer Css Starts*/
+
+.footer-section{
+	
+	display:block;
+	background-color:#00053b;
+	margin-top:0px;
+	padding: 10px 20px;
+}
+
+.footer-about{
+	padding:0 10px;
+}
+
+.footer-about img{
+	width: 100%;
+    max-width: 100px;
+    height: -webkit-fill-available;
+    padding-top: 10px;
+}
+
+.useful-links, .social-icons{
+	padding:0 20px;
+	
+}
+
+.useful-links h4, .social-icons h4{
+	font-size:18px;
+	color:orange;
+	text-transform:capitalize;
+}
+
+.useful-links ul{
+	list-style: disc;
+	padding:0;
+    color: #fff;
+}
+
+.useful-links ul li, .social-icons ul li {
+	padding-bottom:10px;
+}
+
+.useful-links ul li a{
+	text-decoration:none;
+	font-size:18px;
+    color: #fff;
+}
+
+.social-icons ul{
+    display: flex;
+}
+
+.social-icons  ul li a{
+    padding: 0px 10px;
+    color: #fff;
+}
+
+.social-icons ul{
+    list-style: none;
+}
+
+/* Footer Css Ends*/
+
+}
+
+
+@media screen and (min-width:426px) and (max-width:768px){
+
+    /*banner css starts*/
+
+    .banner {
+        background-image:url("https://i.ibb.co/47XD407/Whats-App-Image-2023-12-17-at-20-11-02-de1c42d7.jpg");
+        width: 100%;
+        height: 400px;
+        background-position: center-center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: relative;
+    }
+    
+    .banner:before {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 400px;
+        background-color:black;
+        opacity: 0.8;
+    }
+
+
+.hfhf {
+    top: 35%;
+    position: absolute;
+    color: #fff;
+    text-align: center;
+    padding: 0px 10px;
+}
+
+.hfhf h1 {
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Inter',sans-serif;
+}
+
+.hfhf p{
+    font-weight: bold;
+    font-size: 19px;
+    font-family: 'Inter',sans-serif;
+}
+
+.hfhf span{
+    color: red;
+}
+
+/*banner css ends*/
+
+/* About Us Section Css Starts*/
+
+.about-us {
+    width: 100%;
+}
+
+.about-content {
+    padding: 5px 0px 10px 0px;
+    display: inline-flex;
+    width: 100%;
+}
+
+.about-img img {
+    width: 100%;
+    max-width: 700px;
+    height: 100%;
+    max-height: 400px;
+}
+
+.about-img , .about-desc {
+    width: 50%;
+}
+
+.about-desc h2 {
+    font-size: 19px;
+    color:rgb(255, 98, 0);
+    text-transform: uppercase;
+    font-family: 'Inter',sans-serif;
+}
+
+.about-img {
+    padding-left: 5px;
+}
+
+.about-desc {
+    padding-right: 10px;
+    padding-left: 10px;
+    font-family: 'Inter',sans-serif;
+}
+
+.about-desc p{
+    font-size: 12px;
+}
+
+
+/* About Us Section Css Ends*/
+
+/*Gallery css starts*/
+
+.carousel-item img{
+    height: auto;
+    max-height: 400px;
+}
+
+.galh h1{
+    color: rgb(122, 8, 8);
+    text-align: center;
+    padding: 20px 0px;
+    font-family: 'Inter',sans-serif;
+}
+
+/*Gallery css ends*/
+
+}
+
+@media screen and (min-width:769px) and (max-width:1025px){
+
+    /*banner css starts*/
+
+    .banner {
+        background-image:url("https://i.ibb.co/47XD407/Whats-App-Image-2023-12-17-at-20-11-02-de1c42d7.jpg");
+        width: 100%;
+        height: 450px;
+        background-position: center-center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: relative;
+    }
+    
+    .banner:before {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 450px;
+        background-color:black;
+        opacity: 0.8;
+    }
+
+.hfhf {
+    top: 35%;
+    position: absolute;
+    color: #fff;
+    text-align: center;
+    padding: 0px 10px;
+}
+
+.hfhf h1 {
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Inter',sans-serif;
+}
+
+.hfhf p{
+    font-weight: bold;
+    font-size: 19px;
+    font-family: 'Inter',sans-serif;
+}
+
+.hfhf span{
+    color: red;
+}
+
+/*banner css ends*/
+
+/* About Us Section Css Starts*/
+
+.about-us {
+    width: 100%;
+    padding-top: 5px;
+}
+
+.about-content {
+    padding: 0px 0px 10px 0px;
+    display: inline-flex;
+    width: 100%;
+}
+
+.about-img img {
+    width: 100%;
+    max-width: 700px;
+    height: 100%;
+    max-height: 400px;
+}
+
+.about-img , .about-desc {
+    width: 50%;
+}
+
+.about-desc h2 {
+    font-size: 26px;
+    color:rgb(255, 98, 0);
+    text-transform: uppercase;
+    font-family: 'Inter',sans-serif;
+}
+
+.about-img {
+    padding-left: 5px;
+}
+
+.about-desc {
+    padding-right: 10px;
+    padding-left: 10px;
+    font-family: 'Inter',sans-serif;
+}
+
+.about-desc p{
+    font-size: 15px;
+}
+
+/* About Us Section Css Ends*/
+
+/*Gallery css starts*/
+
+.carousel-item img{
+    height: auto;
+    max-height: 600px;
+}
+
+.galh h1{
+    color: rgb(122, 8, 8);
+    text-align: center;
+    padding: 20px 0px;
+    font-family: 'Inter',sans-serif;
+}
+
+/*Gallery css ends*/
+
+}
